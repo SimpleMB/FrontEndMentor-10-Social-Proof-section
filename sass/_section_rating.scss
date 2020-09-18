@@ -1,0 +1,26 @@
+.rating {
+  max-width: 375px;
+  margin: 10px auto;
+  padding: 15px;
+}
+
+.rating-card {
+  background-color: $NeutralLightGrayMagneta;
+  color: $PrimaryDarkMagneta;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  text-align: center;
+  border-radius: 10px;
+
+  .star-icons {
+    padding-bottom: 5px;
+
+    img {
+      margin: 4px;
+    }
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+}

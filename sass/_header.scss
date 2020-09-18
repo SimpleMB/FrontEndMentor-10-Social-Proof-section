@@ -1,0 +1,19 @@
+header {
+  max-width: 375px;
+  margin: 0 auto;
+  text-align: center;
+  color: $PrimaryDarkMagneta;
+  background-image: url("../images/bg-pattern-top-mobile.svg");
+  background-repeat: no-repeat;
+
+  h1 {
+    font-size: 32px;
+    padding: 100px 50px 10px;
+    line-height: 1;
+  }
+
+  p {
+    font-size: 15px;
+    padding: 10px 15px 0;
+  }
+}

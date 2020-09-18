@@ -1,2 +1,59 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, button, input {
+  font-family: 'Spartan';
+}
+
+header {
+  max-width: 375px;
+  margin: 0 auto;
+  text-align: center;
+  color: #502050;
+  background-image: url("../images/bg-pattern-top-mobile.svg");
+  background-repeat: no-repeat;
+}
+
+header h1 {
+  font-size: 32px;
+  padding: 100px 50px 10px;
+  line-height: 1;
+}
+
+header p {
+  font-size: 15px;
+  padding: 10px 15px 0;
+}
+
+.rating {
+  max-width: 375px;
+  margin: 10px auto;
+  padding: 15px;
+}
+
+.rating-card {
+  background-color: #f7f2f7;
+  color: #502050;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.rating-card .star-icons {
+  padding-bottom: 5px;
+}
+
+.rating-card .star-icons img {
+  margin: 4px;
+}
+
+.rating-card h3 {
+  font-size: 14px;
+}
 /*# sourceMappingURL=styles.css.map */
